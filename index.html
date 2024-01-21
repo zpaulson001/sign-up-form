@@ -23,10 +23,24 @@
             You know you want to.
         </p>
 
-        <form action="">
-
-
+        <form action="" id="sign-up-form">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" name="first-name"id="first-name">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="last-name" id="last-name">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">PHONE</label>
+            <input type="tel" name="phone" id="phone">
+            <label for="pswd">PASSWORD</label>
+            <input type="password" name="pswd" id="pswd">
+            <label for="confirm-pswd">CONFIRM PASSWORD</label>
+            <input type="password" name="confirm-pswd" id="confirm-pswd">
         </form>
+
+        <button type="submit" form="sign-up-form">Create Account</button>
+
+        <p>Already have an account? Log in</p>
 
     </main>
 </body>
