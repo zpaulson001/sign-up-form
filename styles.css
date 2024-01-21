@@ -67,3 +67,7 @@ main {
 form {
     border: 2px solid green;
 }
+
+p.info-text {
+    margin: 32px;
+}
