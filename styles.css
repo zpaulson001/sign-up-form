@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("fonts/norse-bold-webfont.woff") format('woff'),
+         url('fonts/norse-bold-webfont.woff2') format('woff2');
+}
+  
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,8 +56,8 @@ ol, ul {
     display:flex;
     align-items: center;
     justify-content: center;
-    width:100%;
     font-size: 3rem;
+    font-family: "Norse Bold", sans-serif;
 }
 
 #odin-img {
