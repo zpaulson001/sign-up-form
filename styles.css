@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/inter-v-webfont.woff") format('woff'),
+         url("fonts/inter-v-webfont.woff2") format('woff2');
+}
 
 @font-face {
     font-family: "Norse Bold";
     src: url("fonts/norse-bold-webfont.woff") format('woff'),
-         url('fonts/norse-bold-webfont.woff2') format('woff2');
+         url("fonts/norse-bold-webfont.woff2") format('woff2');
 }
   
 html, body, div, span, applet, object, iframe,
@@ -44,7 +48,9 @@ ol, ul {
 }
 
 .side-banner {
-    background-color: rgb(39, 93, 240);
+    background-image: url(images/side-banner-img.jpg);
+    background-size: cover;
+    background-position-x: center;
     display: flex;
     flex: 0 1 300px;
     align-items: center;
@@ -53,12 +59,12 @@ ol, ul {
 .logo {
     height: 100px;
     padding:16px;
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(0, 0, 0, 0.713);
     color:white;
     display:flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: "Norse Bold", sans-serif;
 }
 
