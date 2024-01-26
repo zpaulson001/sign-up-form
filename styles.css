@@ -35,11 +35,6 @@ time, mark, audio, video {
     box-sizing: border-box;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
 em {
     font-style: italic;
 }
@@ -154,9 +149,9 @@ button {
     border-radius: .5rem;
     font: inherit;
     font-size: 1rem; 
-    padding: .8rem 0rem;
-    max-width: 200px;
+    padding: .8rem 2.5rem;
     margin: 32px 48px;
+    width: max-content;
     color: white;
     background-color: #014454;
     box-shadow: 4px 4px 5px rgba(202, 202, 202, 0.664);
